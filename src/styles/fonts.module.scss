@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@700;800&display=swap");
+
+// fonts
+$title-font: "Nunito", sans-serif;
+$title-font-secondary: "Lato", sans-serif;
+$paragraph-font: "Lato", sans-serif;
+
+:export {
+    titleFont: $title-font;
+    paragraphFont: $paragraph-font;
+    titleFontSecondary: $title-font-secondary;
+}

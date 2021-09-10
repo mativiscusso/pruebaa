@@ -1,0 +1,34 @@
+// Light Colors
+$primary-color-dark: #39287b;
+$primary-color: #de0f07;
+$secondary-color: #b20606;
+
+// Light backgrounds
+$background-primary-color: #eeeeee;
+$background-secondary-color: #e5e5e5;
+
+// Font Colors
+$black-color: #202223;
+$title-color: #343434;
+$paragraph-color: #666666;
+$paragraph-light-color: #666666;
+$contrast-color: #ffffff;
+$danger-color: #ba0000;
+$icon-light-color: #666666;
+$icon-dark-color: #343434;
+
+:export {
+    primaryColor: $primary-color;
+    primaryColorDark: $primary-color-dark;
+    secondaryColor: $secondary-color;
+    backgroundPrimaryColor: $background-primary-color;
+    backgroundSecondaryColor: $background-secondary-color;
+    titleColor: $title-color;
+    contrastColor: $contrast-color;
+    dangerColor: $danger-color;
+    paragraphColor: $paragraph-color;
+    paragraphLightColor: $paragraph-light-color;
+    blackColor: $black-color;
+    iconLightColor: $icon-light-color;
+    iconDarkColor: $icon-dark-color;
+}
